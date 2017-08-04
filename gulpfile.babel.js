@@ -53,7 +53,7 @@ let paths = {
   output: root,
   blankTemplates: path.join(__dirname, 'generator', 'component/**/*.**'),
   serviceTemplates: path.join(__dirname, 'generator', 'service/**/*.**'),
-  dest: path.join(__dirname, 'build')
+  dest: path.join(__dirname, 'dist')
 };
 
 // use webpack.config.js to build modules
